@@ -1,0 +1,85 @@
+id,question_id,localization,answer,domain,repeat,score
+1,1,,Ensure that senior leaders and executives model ethical behavior and prioritize employee well-being.,Prioritize Ethical Leadership,0,1
+2,1,,Develop a strong ethical leadership culture that values employees as integral to the organization's success.,Prioritize Ethical Leadership,0,2
+3,1,,Define and communicate a set of ethical values that include a commitment to employee well-being and safety.,Establish Clear Ethical Values,0,6
+4,1,,Embed these values in the organization's mission and vision statements.,Establish Clear Ethical Values,0,1
+5,1,,"Allocate resources to support employee well-being programs, such as mental health initiatives, wellness programs, and ergonomic workplace designs.",Invest in Employee Well-Being,0,3
+6,1,,Consider offering flexible work arrangements to promote work-life balance.,Invest in Employee Well-Being,0,7
+7,1,,Encourage open and honest communication between employees and management.,Foster Open Communication,0,9
+8,1,,Create channels for employees to voice concerns or suggestions related to their well-being.,Foster Open Communication,0,1
+9,1,,"Recognize that long-term profitability is often linked to employee well-being. A satisfied and engaged workforce can boost productivity, innovation, and customer satisfaction.",Balance Profit and Well-Being,0,2
+10,1,,Avoid short-term thinking that sacrifices well-being for immediate financial gains.,Balance Profit and Well-Being,0,6
+11,2,,"Develop and communicate a clear commitment to environmental sustainability, embedding it in the company's mission and values.",Sustainability Commitment,0,1
+12,2,,"Prior to making decisions, conduct comprehensive environmental impact assessments (EIAs) to identify potential harm and explore alternative options.",Environmental Impact Assessment,0,3
+13,2,,"Ensure full compliance with local, national, and international environmental laws and regulations.",Regulatory Compliance,0,7
+14,2,,Stay informed about evolving environmental legislation and make necessary adjustments.,Regulatory Compliance,0,9
+15,2,,Collaborate with suppliers who demonstrate a commitment to sustainable practices and ethical sourcing.,Sustainable Sourcing and Supply Chain,0,1
+16,2,,Assess the environmental impact of products and materials used in production and seek alternatives that are more eco-friendly.,Sustainable Sourcing and Supply Chain,0,2
+15,2,,"Implement resource-efficient practices to reduce waste, energy consumption, and water usage in operations.",Resource Efficiency,0,6
+16,2,,Invest in energy-efficient technologies and renewable energy sources.,Resource Efficiency,0,1
+17,2,,"Develop products and services with a focus on environmental sustainability, considering their entire lifecycle, from production to disposal.",Green Product Design,0,3
+18,2,,Invest in carbon offset programs and initiatives to mitigate the organization's carbon footprint.,Carbon Offsetting and Mitigation,0,7
+19,2,,"Support reforestation, renewable energy projects, or other environmentally beneficial activities.",Carbon Offsetting and Mitigation,0,9
+20,2,,Ensure that marketing materials accurately represent the organization's commitment to environmental sustainability.,Ethical Marketing and Communication,0,1
+21,3,,Make ethical marketing principles a cornerstone of your company's culture and values.,Embrace Ethical Marketing Principles,0,2
+22,3,,Clearly communicate these principles to all employees involved in marketing and sales.,Embrace Ethical Marketing Principles,0,6
+23,3,,"Ensure that all marketing materials, advertisements, and product descriptions are transparent, accurate, and free from misleading information.",Transparency and Honesty,0,1
+24,3,,"Avoid exaggerations, false claims, and deceptive imagery in marketing campaigns.",Transparency and Honesty,0,3
+25,3,,"Comply with advertising laws and regulations, including those related to false advertising and consumer protection.",Truth in Advertising,0,7
+26,3,,Verify the accuracy of all product or service claims before promoting them.,Truth in Advertising,0,9
+27,3,,Prioritize the needs and interests of customers over short-term sales goals.,Customer-Centric Approach,0,1
+28,3,,Develop products and services that genuinely meet customer needs and provide value.,Customer-Centric Approach,0,2
+29,3,,"Price products or services fairly, avoiding hidden fees, price gouging, or artificial price inflation.",Ethical Pricing,0,6
+30,3,,Offer competitive and reasonable pricing while maintaining profitability.,Ethical Pricing,0,1
+31,4,,"Before collecting any employee data beyond what is necessary for HR management, obtain informed consent from employees. Clearly explain the purpose of data collection, how it will be used, and the potential consequences.",Obtain Informed Consent,0,3
+32,4,,Only collect employee data that is necessary for legitimate HR purposes. Avoid collecting excessive or irrelevant information.,Limit Data Collection,0,7
+33,4,,Regularly review and assess the data collected to ensure it remains relevant and necessary.,Limit Data Collection,0,9
+34,4,,"Comply with data protection laws and regulations, such as GDPR or CCPA, that govern the handling of employee data.",Data Protection Compliance,0,1
+35,4,,"Implement robust data protection measures, including encryption, access controls, and secure storage, to safeguard employee data.",Data Protection Compliance,0,2
+34,4,,Maintain transparent communication with employees regarding data handling practices.,Transparency and Communication,0,6
+35,4,,"Inform employees about their rights regarding their personal data, including the right to access, correct, or delete it.",Transparency and Communication,0,1
+36,4,,Use employee data only for the specific purposes for which it was collected and disclosed.,Purpose Limitation,0,3
+37,4,,Avoid using employee data for purposes unrelated to employment or HR management without explicit consent or a legitimate reason.,Purpose Limitation,0,7
+38,4,,Minimize the retention of employee data to the shortest necessary period.,Data Minimization,0,9
+39,4,,Implement data deletion or anonymization policies to remove data that is no longer needed for HR purposes.,Data Minimization,0,1
+40,4,,Develop and implement internal policies and procedures that govern the ethical use of employee data.,Internal Policies and Training,0,2
+41,5,,Establish a culture of transparency where information about changes that impact employees is shared openly and honestly.,Transparent Communication,0,6
+42,5,,"Provide clear and timely updates regarding organizational changes, policies, and procedures.",Transparent Communication,0,1
+43,5,,Involve employees in the decision-making process when feasible. Seek their input and feedback on changes that may affect them.,Employee Engagement,0,3
+44,5,,"Create forums or channels for employees to voice concerns, ask questions, and provide suggestions.",Employee Engagement,0,7
+45,5,,"Whenever possible, provide employees with advance notice of impending changes. This allows them to prepare and adapt to the new circumstances.",Advance Notice,0,9
+46,5,,Be considerate of the timing and methods used to communicate changes.,Advance Notice,0,1
+47,5,,"Clearly explain the reasons behind the changes, the expected impacts, and the benefits to both the organization and employees.",Clear Explanations,0,2
+48,5,,Address potential concerns or uncertainties proactively.,Clear Explanations,0,6
+49,5,,"Make information easily accessible to all employees through channels such as company-wide emails, intranet portals, or meetings.",Accessibility of Information,0,1
+50,5,,"Ensure that information is presented in a way that is understandable to all employees, regardless of their role or background.",Accessibility of Information,0,3
+51,6,,"Develop and communicate a clear equal opportunity employment policy that prohibits discrimination based on age, along with other protected characteristics (such as race, gender, religion, etc.).",Equal Opportunity Employment Policy,0,7
+52,6,,Create diverse hiring panels or committees that include individuals from various age groups to review and select candidates.,Diverse Hiring Teams,0,9
+53,6,,Encourage diverse perspectives in the hiring process to reduce the likelihood of age bias.,Diverse Hiring Teams,0,1
+54,6,,"Implement blind recruitment techniques, where applicant information such as age, name, and graduation dates is removed from initial application materials.",Blind Recruitment,0,1
+55,6,,Focus solely on qualifications and skills during the initial screening process.,Blind Recruitment,0,2
+56,6,,Provide training to hiring managers and recruiters on the importance of age diversity and the consequences of age discrimination.,Training and Awareness,0,6
+57,6,,Raise awareness about unconscious bias that may lead to age-related discrimination.,Training and Awareness,0,1
+58,6,,"Establish clear and objective hiring criteria based on job-related skills, qualifications, and competencies.",Objective Hiring Criteria,0,3
+59,6,,Ensure that these criteria are consistently applied to all candidates regardless of age.,Objective Hiring Criteria,0,7
+60,6,,Conduct regular audits of hiring practices to identify and rectify any age-related biases.,Regular Audits and Monitoring,0,9
+61,7,,Develop clear and comprehensive termination policies and procedures that outline the criteria for termination and the steps to be followed.,Establish Clear Termination Policies,0,1
+62,7,,"Require that terminations be based on justifiable and documented reasons, such as poor performance, violation of company policies, or legitimate restructuring needs.",Proper Cause Requirement,0,2
+63,7,,"Ensure that employees are provided with due process, which may include notice, a fair hearing, an opportunity to respond to allegations, and a chance for improvement.",Due Process,0,6
+64,7,,Follow legal requirements and contractual obligations related to due process.,Due Process,0,1
+65,7,,"Maintain thorough records of an employee's performance, behavior, or conduct issues, as well as any corrective actions taken.",Documentation,0,3
+66,7,,"Document the reasons for termination, ensuring that they are clear and supported by evidence.",Documentation,0,7
+67,7,,"Apply termination policies consistently and equitably to all employees, regardless of their position or tenure.",Consistency,0,9
+68,7,,Avoid favoritism or discriminatory practices in termination decisions.,Consistency,0,1
+69,7,,"Communicate the reasons for termination to the employee in a respectful and empathetic manner, providing an opportunity for questions and discussion.",Notification and Communication,0,2
+70,7,,Notify the employee in writing and provide information about their rights and entitlements.,Notification and Communication,0,6
+71,8,,"Establish performance targets that are challenging but realistic, taking into account the capabilities and resources available to employees.",Ethical Goal Setting,0,1
+72,8,,Avoid setting targets that are intentionally unattainable or that promote unhealthy competition among employees.,Ethical Goal Setting,0,3
+73,8,,Involve employees in the goal-setting process to gain their input and perspective on what is achievable.,Consult with Employees,0,7
+74,8,,Encourage open and honest communication about the feasibility of performance targets.,Consult with Employees,0,9
+75,8,,Conduct regular performance reviews that allow employees and managers to discuss progress toward goals.,Regular Performance Reviews,0,1
+76,8,,Adjust targets if they are consistently unrealistic or if unforeseen circumstances arise.,Regular Performance Reviews,0,2
+77,8,,"Ensure that employees have the necessary resources, tools, and support to meet their performance targets.",Resource Allocation,0,6
+78,8,,Adjust targets if they are consistently unrealistic or if unforeseen circumstances arise.,Resource Allocation,0,1
+79,8,,"Invest in employee training and development to enhance their skills and capabilities, enabling them to meet challenging goals more effectively.",Training and Development,0,3
+80,8,,Use a balanced set of performance metrics that consider both quantitative and qualitative aspects of an employee's work.,Balanced Metrics,0,7

@@ -1,0 +1,92 @@
+id,localization,question,domain,frequency
+1,indonesia,Is it ethical to prioritize profit over employee well-being?,Ethical Decision-Making,0
+2,indonesia,Is it ethical to make business decisions that harm the environment?,Ethical Decision-Making,0
+3,indonesia,Is it ethical to engage in deceptive marketing practices to boost sales?,Ethical Decision-Making,0
+4,indonesia,Is it ethical to use employee data for purposes other than HR management?,Ethical Decision-Making,0
+5,indonesia,Is it ethical to withhold information from employees about changes that affect them?,Ethical Decision-Making,0
+6,indonesia,Is it ethical to discriminate against job applicants based on their age?,Employee Relations and Treatment,0
+7,indonesia,Is it ethical to terminate an employee without proper cause or due process?,Employee Relations and Treatment,0
+8,indonesia,Is it ethical to set unrealistic performance targets that lead to employee burnout?,Employee Relations and Treatment,0
+9,indonesia,Is it etical to quit work abruptly?,Employee Relations and Treatment,0
+10,indonesia,Is it ethical to ignore complaints of workplace harassment or discrimination?,Employee Relations and Treatment,0
+11,indonesia,Is it ethical to favor certain employees over others in promotions?,Employee Relations and Treatment,0
+12,indonesia,Is it ethical for a manager to take credit for an employee's work?,Leadership and Management Ethics,0
+13,indonesia,Is it ethical to engage in office politics to advance one's career?,Leadership and Management Ethics,0
+14,indonesia,Is it ethical for a leader to conceal information from their team?,Leadership and Management Ethics,0
+15,indonesia,Is it ethical to use fear or intimidation as a management tactic?,Leadership and Management Ethics,0
+16,indonesia,Is it ethical to engage in favoritism when allocating resources or opportunities?,Leadership and Management Ethics,0
+17,indonesia,Is it ethical to use tax loopholes to reduce the company's tax liability?,Business Ethics and Conduct,0
+18,indonesia,Is it ethical to engage in price-fixing with competitors?,Business Ethics and Conduct,0
+19,indonesia,Is it ethical to use false testimonials in marketing materials?,Business Ethics and Conduct,0
+20,indonesia,Is it ethical to sell products that are known to be harmful to consumers?,Business Ethics and Conduct,0
+21,indonesia,Is it ethical to misrepresent a product's features or capabilities to make a sale?,Business Ethics and Conduct,0
+22,indonesia,Is it ethical to manipulate financial statements to meet investor expectations?,Financial Ethics,0
+23,indonesia,Is it ethical to prioritize shareholder profits over employee wages and benefits?,Financial Ethics,0
+24,indonesia,Is it ethical to engage in insider trading to gain a financial advantage?,Financial Ethics,0
+25,indonesia,Is it ethical to provide executives with excessive compensation packages?,Financial Ethics,0
+26,indonesia,Is it ethical to delay payment to suppliers to improve cash flow?,Financial Ethics,0
+27,indonesia,Is it ethical to ignore diversity and inclusion initiatives in hiring decisions?,Diversity and Inclusion Ethics,0
+28,indonesia,Is it ethical to make hiring decisions based on biases or stereotypes?,Diversity and Inclusion Ethics,0
+29,indonesia,Is it ethical to exclude certain groups from professional development opportunities?,Diversity and Inclusion Ethics,0
+30,indonesia,Is it ethical to create a workplace that is unwelcoming to diverse employees?,Diversity and Inclusion Ethics,0
+31,indonesia,Is it ethical to disregard the need for accommodations for disabled employees?,Diversity and Inclusion Ethics,0
+32,indonesia,Is it ethical to use employee monitoring software without their knowledge or consent?,Privacy and Data Ethics,0
+33,indonesia,Is it ethical to share employee personal information with third parties without consent?,Privacy and Data Ethics,0
+34,indonesia,Is it ethical to require employees to provide access to their personal social media accounts?,Privacy and Data Ethics,0
+35,indonesia,Is it ethical to track employees' internet usage and emails without reason?,Privacy and Data Ethics,0
+36,indonesia,Is it ethical to sell customer data to third parties without their knowledge or consent?,Privacy and Data Ethics,0
+37,indonesia,Is it ethical to engage in environmentally harmful business practices for profit?,Environmental Ethics,0
+38,indonesia,Is it ethical to ignore environmental regulations and standards?,Environmental Ethics,0
+39,indonesia,Is it ethical to misrepresent a company's commitment to sustainability?,Environmental Ethics,0
+40,indonesia,Is it ethical to prioritize short-term financial gains over long-term environmental sustainability?,Environmental Ethics,0
+41,indonesia,Is it ethical to dispose of hazardous waste improperly to save on disposal costs?,Environmental Ethics,0
+42,indonesia,Is it ethical for a company to engage in CSR initiatives solely for positive PR?,Corporate Social Responsibility,0
+43,indonesia,Is it ethical to use CSR initiatives to distract from unethical business practices?,Corporate Social Responsibility,0
+44,indonesia,Is it ethical to make charitable donations as a form of damage control?,Corporate Social Responsibility,0
+45,indonesia,Is it ethical to engage in CSR efforts that do not align with the company's core values?,Corporate Social Responsibility,0
+46,indonesia,Is it ethical to prioritize profits over CSR commitments during tough financial times?,Corporate Social Responsibility,0
+47,indonesia,Is it ethical to ignore workplace conflicts and hope they resolve themselves?,Conflict Resolution Ethics,0
+48,indonesia,Is it ethical to pressure employees into signing non-disclosure agreements after conflicts?,Conflict Resolution Ethics,0
+49,indonesia,Is it ethical to use intimidation or threats to resolve workplace disputes?,Conflict Resolution Ethics,0
+50,indonesia,Is it ethical to delay addressing conflicts to avoid negative publicity?,Conflict Resolution Ethics,0
+51,indonesia,Is it ethical to prioritize confidentiality over transparency in conflict resolution?,Conflict Resolution Ethics,0
+52,indonesia,Is it ethical to retaliate against employees who report unethical behavior?,Whistleblower Protection,0
+53,indonesia,Is it ethical to ignore or dismiss whistleblower reports without investigation?,Whistleblower Protection,0
+54,indonesia,Is it ethical to pressure whistleblowers into silence through legal means?,Whistleblower Protection,0
+55,indonesia,Is it ethical to disclose a whistleblower's identity without their consent?,Whistleblower Protection,0
+56,indonesia,Is it ethical to make false allegations against a whistleblower to discredit them?,Whistleblower Protection,0
+57,indonesia,Is it ethical to provide inadequate or ineffective ethics training to employees?,Ethical Training and Education,0
+58,indonesia,Is it ethical to require employees to complete ethics training but not leaders?,Ethical Training and Education,0
+59,indonesia,Is it ethical to use ethics training as a checkbox without practical application?,Ethical Training and Education,0
+60,indonesia,Is it ethical to provide biased or one-sided ethics training materials?,Ethical Training and Education,0
+61,indonesia,Is it ethical to avoid addressing contemporary ethical issues in training programs?,Ethical Training and Education,0
+62,indonesia,Is it ethical to ignore potential conflicts of interest within an organization?,Conflict of Interest,0
+63,indonesia,Is it ethical for employees to engage in side businesses that compete with the company?,Conflict of Interest,0
+64,indonesia,Is it ethical for leaders to have personal relationships with suppliers or clients?,Conflict of Interest,0
+65,indonesia,Is it ethical for employees to serve on boards or in outside organizations without disclosure?,Conflict of Interest,0
+66,indonesia,Is it ethical to ignore conflicts of interest in hiring or promotion decisions?,Conflict of Interest,0
+67,indonesia,Is it ethical to accept extravagant gifts from clients or suppliers?,Gifts and Entertainment,0
+68,indonesia,Is it ethical to provide expensive entertainment to clients or customers?,Gifts and Entertainment,0
+69,indonesia,Is it ethical to give gifts or entertainment to gain a competitive advantage?,Gifts and Entertainment,0
+70,indonesia,Is it ethical to expect gifts or entertainment in exchange for business deals?,Gifts and Entertainment,0
+71,indonesia,Is it ethical to use gifts or entertainment as a form of bribery or influence?,Gifts and Entertainment,0
+72,indonesia,Is it ethical to create marketing campaigns that exploit people's fears or insecurities?,Ethical Marketing and Advertising,0
+73,indonesia,Is it ethical to use misleading or exaggerated claims in advertising?,Ethical Marketing and Advertising,0
+74,indonesia,Is it ethical to use customer data for targeted marketing without consent?,Ethical Marketing and Advertising,0
+75,indonesia,Is it ethical to use influencer marketing without proper disclosure?,Ethical Marketing and Advertising,0
+76,indonesia,Is it ethical to create marketing materials that appeal to children or vulnerable populations?,Ethical Marketing and Advertising,0
+77,indonesia,Is it ethical to deny employees access to professional development opportunities?,Professional Development and Ethics,0
+78,indonesia,Is it ethical to tie professional development to favoritism or nepotism?,Professional Development and Ethics,0
+79,indonesia,Is it ethical to provide professional development that is biased or discriminatory?,Professional Development and Ethics,0
+80,indonesia,Is it ethical to withhold opportunities for career advancement from certain employees?,Professional Development and Ethics,0
+81,indonesia,Is it ethical to discourage employees from seeking external professional development?,Professional Development and Ethics,0
+82,indonesia,Is it ethical to prioritize profits over customer satisfaction and safety?,Customer Relations and Ethics,0
+83,indonesia,Is it ethical to charge different prices to different customers for the same product or service?,Customer Relations and Ethics,0
+84,indonesia,Is it ethical to ignore or downplay safety concerns raised by customers?,Customer Relations and Ethics,0
+85,indonesia,Is it ethical to mislead customers about product quality or features?,Customer Relations and Ethics,0
+86,indonesia,Is it ethical to treat customers differently based on their identity or background?,Customer Relations and Ethics,0
+87,indonesia,Is it ethical to do business with suppliers who engage in unethical practices?,Vendor and Supplier Ethics,0
+88,indonesia,Is it ethical to turn a blind eye to supplier ethics for cost savings?,Vendor and Supplier Ethics,0
+89,indonesia,Is it ethical to prioritize low-cost suppliers over ethical ones?,Vendor and Supplier Ethics,0
+90,indonesia,Is it ethical to continue doing business with a supplier,Vendor and Supplier Ethics,0
+91,indonesia,Is it ethical to continue doing business with a supplier,Employee Relations and Treatment,0

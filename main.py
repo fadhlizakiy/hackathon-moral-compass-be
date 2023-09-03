@@ -69,10 +69,12 @@ def read_item(item_id: int, q: Union[str, None] = None):
 
 @app.post("/decide")
 async def count_decision(req: Decision):
-    sentiment_analyzer = SentimentIntensityAnalyzer()
     # variable for storing the final options
     options = []
 
+    # sentiment analyzer
+    sentiment_analyzer = SentimentIntensityAnalyzer()
+    
     # for loop for each options
     for i in req.options:
         sentiment = sentiment_analyzer.polarity_scores(i)
@@ -87,9 +89,22 @@ async def count_decision(req: Decision):
         # append to the options variable for final return
         options.append(option_result)
 
-    # set the return
-    result = {"question":req.question, "options": options}
-    return result
+    # make vector of the question
+    vectorQuestion = vectorizer.transform([req.question])
+    arrVectorQuestion = vectorQuestion.toarray()
+
+    # find cosine similarity
+    cosine = np.sum(arrVectorLibQuestions*arrVectorQuestion, axis=1)/(norm(arrVectorLibQuestions, axis=1)*norm(arrVectorQuestion, axis=1))
+    max_val = max(cosine)
+    idx = int(np.where(cosine == max_val)[0][0]) + 1
+
+    # find corresponding pre-trained question
+    idy = np.where(np.array(libAnswersIdx) == idx)[0]
+    results = []
+    for row in idy:
+        results.append(libAnswers[row])
+
+    return {"question": req.question, "options": options, "additional" : results}
 
 @app.get("/data/question")
 async def get_question_data():
@@ -119,12 +134,16 @@ async def test_question_data(req: Question):
 
 @app.post("/test/question-answer")
 async def test_question_data(req: Question):
+    # make vector of the question
     vectorQuestion = vectorizer.transform([req.question])
     arrVectorQuestion = vectorQuestion.toarray()
+
+    # find cosine similarity
     cosine = np.sum(arrVectorLibQuestions*arrVectorQuestion, axis=1)/(norm(arrVectorLibQuestions, axis=1)*norm(arrVectorQuestion, axis=1))
     max_val = max(cosine)
     idx = int(np.where(cosine == max_val)[0][0]) + 1
 
+    # find corresponding pre-trained question
     idy = np.where(np.array(libAnswersIdx) == idx)[0]
     results = []
     for row in idy:
@@ -132,5 +151,42 @@ async def test_question_data(req: Question):
 
     return {"question": req.question, "additional" : results}
 
+@app.post("/test/question-answer-final")
+async def test_question_data(req: Decision):
+    # variable for storing the final options
+    options = []
+
+    # sentiment analyzer
+    sentiment_analyzer = SentimentIntensityAnalyzer()
     
+    # for loop for each options
+    for i in req.options:
+        sentiment = sentiment_analyzer.polarity_scores(i)
+        # put the option as a result
+        option_result = {
+            "option":i, 
+            "neg":sentiment['neg'], 
+            "neu":sentiment['neu'], 
+            "pos":sentiment['pos'], 
+            "compound" : sentiment['compound']}
+
+        # append to the options variable for final return
+        options.append(option_result)
+
+    # make vector of the question
+    vectorQuestion = vectorizer.transform([req.question])
+    arrVectorQuestion = vectorQuestion.toarray()
+
+    # find cosine similarity
+    cosine = np.sum(arrVectorLibQuestions*arrVectorQuestion, axis=1)/(norm(arrVectorLibQuestions, axis=1)*norm(arrVectorQuestion, axis=1))
+    max_val = max(cosine)
+    idx = int(np.where(cosine == max_val)[0][0]) + 1
+
+    # find corresponding pre-trained question
+    idy = np.where(np.array(libAnswersIdx) == idx)[0]
+    results = []
+    for row in idy:
+        results.append(libAnswers[row])
+
+    return {"question": req.question, "options": options, "additional" : results}
 
